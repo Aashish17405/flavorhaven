@@ -1,0 +1,101 @@
+{
+  "recipes": [
+    {
+      "id": "half-boiled-egg",
+      "title": "Half Boiled Egg",
+      "cooking_time": {
+        "prep_time": "2-3 minutes",
+        "cook_time": "3-4 minutes",
+        "total_time": "6-7 minutes"
+      },
+      "ingredients": [
+        "eggs",
+        "salt",
+        "black pepper",
+        "butter or oil",
+        "onions",
+        "tomatoes",
+        "capsicum",
+        "chili flakes or green chilies",
+        "cheese"
+      ],
+      "quantity": {
+        "eggs": "2 large",
+        "salt": "to taste",
+        "black_pepper": "to taste",
+        "butter_or_oil": "1 tbsp",
+        "onions": "1 tbsp (optional, chopped)",
+        "tomatoes": "1 tbsp (optional, chopped)",
+        "capsicum": "1 tbsp (optional, chopped)",
+        "chili_flakes_or_green_chilies": "a pinch (optional)",
+        "cheese": "as desired (optional)"
+      },
+      "procedure": [
+        "Crack the eggs into a bowl and beat with salt and pepper until combined.",
+        "Heat a non-stick pan on low to medium heat and add butter or oil.",
+        "Pour in the eggs and let them sit for 30–45 seconds to set the bottom.",
+        "Gently swirl or stir the eggs from the edge toward the center.",
+        "When halfway cooked, add optional fillings like cheese or vegetables.",
+        "Fold the omelette in half and cook for another 30–45 seconds.",
+        "Serve immediately while the inside is still slightly runny."
+      ],
+      "tips": [
+        "Use low heat to prevent overcooking and retain softness.",
+        "Use fresh eggs for better texture and flavor.",
+        "Do not overbeat the eggs; mix just until combined.",
+        "Remove from the pan slightly before it looks fully cooked – residual heat will finish the job."
+      ],
+      "sound": "/assets/audio/eggs.mp3",
+      "image": "/assets/images/omelette.png"
+    },
+    {
+      "id": "dosa",
+      "title": "Dosa",
+      "cooking_time": {
+        "prep_time": "12-14 hours (including soaking & fermentation)",
+        "cook_time": "2-3 minutes per dosa",
+        "total_time": "12-15 hours"
+      },
+      "ingredients": [
+        "raw rice",
+        "urad dal (split black gram)",
+        "fenugreek seeds (methi)",
+        "poha (flattened rice)",
+        "salt",
+        "water",
+        "oil or ghee"
+      ],
+      "quantity": {
+        "raw_rice": "2 cups",
+        "urad_dal": "1/2 cup",
+        "fenugreek_seeds": "1 tsp",
+        "poha": "1/4 cup",
+        "salt": "to taste",
+        "water": "as needed for grinding and batter consistency",
+        "oil_or_ghee": "as needed for cooking"
+      },
+      "procedure": [
+        "Wash and soak raw rice, urad dal, fenugreek seeds, and poha separately for 4–6 hours.",
+        "Grind them together with some water to make a smooth, pourable batter (like pancake batter).",
+        "Add salt and mix well. Let it ferment overnight (8–10 hours) in a warm place until it rises and turns slightly bubbly.",
+        "Heat a non-stick or cast-iron dosa tawa on medium heat. Sprinkle water to cool it slightly, then wipe dry.",
+        "Pour a ladleful of batter in the center and quickly spread in a circular motion to form a thin round dosa.",
+        "Drizzle a few drops of oil or ghee around the edges.",
+        "Cook until the bottom turns golden and edges lift up — ~2 minutes. (No need to flip if it's thin and crispy.)",
+        "Fold and serve hot with coconut chutney, sambar, or potato masala."
+      ],
+      "tips": [
+        "Use aged rice for crispier dosas.",
+        "Poha helps give a nice golden color and softness.",
+        "Fermentation depends on room temperature — keep the batter in a warm place or oven with the light on.",
+        "Avoid using a freshly washed pan – seasoning is important for non-stick effect.",
+        "Use a cut onion dipped in oil to wipe the pan – it enhances non-stickiness naturally.",
+        "Always stir the batter before pouring to ensure uniform texture.",
+        "Add water to adjust batter consistency if it thickens post-fermentation."
+      ],
+      "sound": "/assets/audio/dosa.mp3",
+      "image": "/assets/images/dosa.webp"
+    }
+  ]
+}
+  
