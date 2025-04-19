@@ -95,7 +95,61 @@
       ],
       "sound": "/assets/audio/dosa.mp3",
       "image": "/assets/images/dosa.webp"
+    },
+    {
+      "id": "soup",
+      "title": "Vegetable Soup",
+      "cooking_time": {
+        "prep_time": "10 minutes",
+        "cook_time": "20 minutes",
+        "total_time": "30 minutes"
+      },
+      "ingredients": [
+        "carrot",
+        "beans",
+        "cabbage",
+        "onion",
+        "garlic",
+        "cornflour",
+        "pepper powder",
+        "salt",
+        "water or vegetable stock",
+        "butter or oil",
+        "soya sauce (optional)"
+      ],
+      "quantity": {
+        "carrot": "1 medium, finely chopped",
+        "beans": "8-10, chopped",
+        "cabbage": "1/2 cup, shredded",
+        "onion": "1 small, finely chopped",
+        "garlic": "2 cloves, minced",
+        "cornflour": "1 tbsp, mixed with 2 tbsp water (slurry)",
+        "pepper_powder": "1/2 tsp or to taste",
+        "salt": "to taste",
+        "water_or_vegetable_stock": "3 cups",
+        "butter_or_oil": "1 tbsp",
+        "soya_sauce": "1/2 tsp (optional)"
+      },
+      "procedure": [
+        "Heat butter or oil in a pot over medium heat.",
+        "Sauté garlic and onion until soft and fragrant.",
+        "Add chopped carrots, beans, and cabbage. Stir for 2-3 minutes.",
+        "Pour in water or vegetable stock and bring to a boil.",
+        "Add salt, pepper, and soy sauce if using.",
+        "Let the soup simmer for 10–12 minutes until vegetables are tender.",
+        "Add the cornflour slurry while stirring continuously to thicken the soup slightly.",
+        "Simmer for another 2 minutes and turn off the heat.",
+        "Serve hot with a sprinkle of extra pepper or fresh herbs if desired."
+      ],
+      "tips": [
+        "Cut vegetables uniformly so they cook evenly.",
+        "Use fresh or homemade stock for deeper flavor.",
+        "You can blend half the soup for a creamy texture while keeping the rest chunky.",
+        "Add boiled sweet corn or noodles for variation.",
+        "Adjust thickness with more or less cornflour slurry as preferred."
+      ],
+      "sound": "/assets/audio/boiling-soup-258057.mp3",
+      "image": "/assets/images/soup.jpg"
     }
   ]
 }
-  

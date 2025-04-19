@@ -49,6 +49,7 @@ function RecipePage() {
     setTimeout(() => {
       const recipesData = recipeData as unknown as RecipesData;
       const foundRecipe = recipesData.recipes.find((r) => r.id === recipeId);
+      console.log(recipeId);
       if (foundRecipe) {
         setRecipe(foundRecipe);
         // Create and play the audio
@@ -74,27 +75,22 @@ function RecipePage() {
     );
   }
 
-  return (
-    <div className="min-h-screen bg-light">
-      {/* Header */}
-      <div className="bg-primary py-4">
-        <div className="container mx-auto px-4">
-          <h1 className="text-3xl font-bold text-white">FlavorHaven</h1>
-        </div>
-      </div>
+  console.log(recipeData);
 
+  return (
+    <div>
       {/* Back Button */}
       <button
         onClick={() => {
           stopCurrentAudio();
           navigate(-1);
         }}
-        className="fixed top-4 left-4 bg-primary text-white px-4 py-2 rounded-md"
+        className="m-4 bg-primary text-white px-4 py-2 rounded-md hover:bg-accent-dark transition duration-300"
       >
         ← Back
       </button>
 
-      <div className="container mx-auto px-4 py-8">
+      <div className="container mx-auto px-4 py-6">
         <h2 className="text-3xl font-bold text-dark mb-8">{recipe.title}</h2>
 
         {/* Recipe Image */}
@@ -106,7 +102,7 @@ function RecipePage() {
           />
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           <div className="bg-white p-6 rounded-lg shadow-md">
             <h3 className="text-xl font-semibold text-dark mb-4">
               Cooking Time

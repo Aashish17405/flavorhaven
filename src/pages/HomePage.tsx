@@ -16,21 +16,12 @@ const HomePage: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-light">
-      {/* Header Section */}
-      <div className="bg-primary py-8 mb-8">
-        <div className="container mx-auto px-4">
-          <h1 className="text-4xl font-bold text-white text-center">
-            FlavorHaven
-          </h1>
-          <p className="text-xl text-white text-center mt-2">
-            Discover Culinary Delights
-          </p>
-        </div>
-      </div>
-
+    <div>
       {/* Recipe Cards Section */}
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 pb-12">
+        <h2 className="text-2xl font-semibold text-accent-dark my-6">
+          Popular Recipes
+        </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {recipeData.recipes.map((recipe) => (
             <Card

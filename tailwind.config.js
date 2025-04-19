@@ -4,11 +4,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#e63946",
-        light: "#f1faee",
-        dark: "#1d3557",
-        accent: "#457b9d",
-        secondary: "#a8dadc",
+        primary: "var(--primary-color)",
+        secondary: "var(--secondary-color)",
+        "accent-light": "var(--accent-light)",
+        "accent-dark": "var(--accent-dark)",
+        light: "var(--background-light)",
+        dark: "var(--text-dark)",
+      },
+      fontFamily: {
+        sans: ["Poppins", "sans-serif"],
       },
     },
   },
